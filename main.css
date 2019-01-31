@@ -1,0 +1,101 @@
+body{
+	/*background-color: #2F3336;*/
+	background-color: #f0f0f0;
+	/*color: #efefef;*/
+    font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.sticky{
+	position: fixed;
+	z-index: +10;
+	top: 0;
+	width: 100%;
+}
+
+.navbar-nav{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 700;
+}
+
+#title{
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+.CV_row{
+	-webkit-box-shadow: 7px 6px 19px -7px rgba(125,125,125,1);
+	-moz-box-shadow: 7px 6px 19px -7px rgba(125,125,125,1);
+	box-shadow: 7px 6px 19px -7px rgba(125,125,125,1);
+	margin-bottom: 3%;
+}
+
+
+.row_dark{
+	background-color: #e0e0e0;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+table td{
+	padding-right:10px;
+}
+
+#photo{
+	width: 200px;
+	height: 200px;
+	border: 2px solid gray;
+	border-radius: 100px;
+}
+
+img{
+	width: 100%;
+	/*height: 300px;*/
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	margin: 20px;
+	text-align: center;
+}
+
+.no_padding{
+ padding: 0px !important;
+}
+
+h5
+{
+	font-weight: 400;
+}
+
+h2{
+	text-align: center;
+}
+
+h3
+{
+	font-weight:400;
+	padding-left:20px; 
+}
+
+.one_column{
+	/*border: 2px white solid;*/
+	margin-top: 20px;
+}
+
