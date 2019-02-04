@@ -13,37 +13,22 @@
 	<link rel="stylesheet" href="css/fontello.css">
 	<link rel="stylesheet" href="css/animation.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/jquery.scrollTo.min.js"></script>
-	<Script>
-		jQuery(function($){
-
-			$("#nav_contact").click(function(){$.scrollTo($('#contact'),500);});
-			$("#nav_experience").click(function(){$.scrollTo($('#experience'),500);});
-			$("#nav_school").click(function(){$.scrollTo($('#school'),500);});
-			$("#nav_articles").click(function(){$.scrollTo($('#articles'),500);});
-			$("#nav_competitions").click(function(){$.scrollTo($('#competitions'),500);});
-			$("#nav_skils").click(function(){$.scrollTo($('#skils'),500);});
-			$("#nav_interestings").click(function(){$.scrollTo($('#interestings'),500);});
-		}
-		);
-	</Script>
 </head>
 
 <body>
-	<nav class="navbar navbar-light bg-light navbar-expand-md sticky">
-		<div class="container-fluid">
-			<button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#menu">
+	<nav class="navbar navbar-light dark_background navbar-expand-lg sticky">
+		<div class="container-fluid ">
+			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#menu">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="menu">
 				<ul  class="navbar-nav">
 					<li class="nav-item" id="nav_contact"><a class="nav-link" href="#">DANE KONTAKTOWE</a></li>
 					<li class="nav-item" id="nav_experience"><a class="nav-link"href="#">DOŚWIADCZENIE</a></li>
+					<li class="nav-item" id="nav_skils"><a class="nav-link"href="#">UMIEJĘTNOŚCI</a></li>
 					<li class="nav-item" id="nav_school"><a class="nav-link"href="#">WYKSZTAŁCENIE</a></li>
 					<li class="nav-item" id="nav_articles"><a class="nav-link"href="#">ARTYKUŁY I KONFERENCJE</a></li>
 					<li class="nav-item" id="nav_competitions"><a class="nav-link"href="#">KONKURSY</a></li>
-					<li class="nav-item" id="nav_skils"><a class="nav-link"href="#">UMIEJĘTNOŚCI</a></li>
 					<li class="nav-item" id="nav_interestings"><a class="nav-link"href="#">ZAINTERESOWANIA</a></li>
 				</ul>
 			</div>
@@ -56,10 +41,10 @@
 					<header>
 						<div id="title">
 							<figure>
-								<img id="photo" src="img/011511.jpg" alt="photo">
+								<img id="photo" src="img/011511.jpg" alt="photo"/>
 							</figure>
 							<h1>KAROL CICHOŃSKI</h1>
-							<p class="header_s">curriculum vitae</p>
+							<p class="header_s" > curriculum vitae</p>
 						</div>
 					</header>
 				</div>
@@ -69,12 +54,12 @@
 			<div class="container">
 				<div class="row CV_row" id="contact">
 					<div class="col-sm-12 row_dark">
-						<h3>DANE KONTAKTOWE</h3>
+						<h3><span class="icon-id-card icon"> </span>DANE KONTAKTOWE</h3>
 					</div>
 					<div class="col-sm-12 offset-md-2 col-md-2">
 						<span class="icon-mobile">511-645-556</span>
 					</div>
-					<div class="col-sm-12 col-md-3">
+					<div class="col-sm-12 col-md-4">
 							<span class="demo-icon icon-mail">karolcichonski89@gmail.com</span>
 					</div>
 					<div class="col-sm-12 col-md-2">
@@ -83,24 +68,25 @@
 				</div>
 				<div class="row CV_row">
 					<div class="col-sm-12 row_dark" id="experience">
-						<h3>DOŚWIADCZENIE</h3>
+						<h3><span class=" icon-cog-alt icon"></span> DOŚWIADCZENIE</h3>
 					</div>
 					<div class="col-sm-12 col-md-2">
 						<h5>2014-obecnie</h5>
 					</div>
 					<div class="col-sm-12 col-md-10">
 						<h5>Inżynier Robotyk- Alpharob</h5>
+						Do moich obowiązków należało:
 						<ul>
 							<li>programowanie robotów offline w środowiskach: Delmia, Process Simulate, Robcad,</li>
-							<li>kontakt z osobami odpowiedzialnymi za poprzednie i kolejne etapy projektu (konstrukcja, symulacja, VIBN)</li>
-							<li>okresowa praca w biurze macierzystym oraz u klienta (Niemcy, Bośnia Hercegowina),</li>
+							<li>kontakt z osobami odpowiedzialnymi za poprzednie i kolejne etapy projektu (konstrukcja, symulacja, VIBN),</li>
+							<li>okresowa praca w biurze macierzystym oraz u klienta (Niemcy, Bośnia i Hercegowina),</li>
 							<li>sprawdzanie poprawności programów na linii produkcyjnej,</li>
 							<li>wykonywanie dokumentacji projektowej,</li>
 							<li>tworzenie makr w środowisku Microsoft Office Excel sprawdzających poprawność składniową programów oraz ułatwiających tworzenie dokumentacji,</li>
-							<li>tworzenie makr w przeznaczonych do przyśpieszania i automatyzowania pracy w środowisku Delmia V5 w języku CAA V5 Visual basic,</li>
-							<li>tworzenie i rozwijanie aplikacji internetowej służącej do ewidencji czasu pracy pracowników oraz czasu przeznaczonego na wykonanie konkretnego
-							zadania w projekcie. Zebrane dane są przetwarzane i prezentowane tak aby ułatwić planowanie i wycenianie podobnych projektów.
-							Wykorzystane technologie: HLML, CSS, JavaScript, PHP, MySql.</li>
+							<li>tworzenie makr przeznaczonych do przyśpieszania i automatyzowania pracy w środowisku Delmia V5 w języku CAA V5 Visual basic,</li>
+							<li>tworzenie aplikacji internetowej służącej do ewidencji czasu pracy pracowników oraz czasu przeznaczonego na wykonanie konkretnych
+							zadań w projekcie. Aplikacja przechowuje również najwazniejsze dane dotyczace projektów i pracowników.
+							Wykorzystane technologie: HTML, CSS, JavaScript, PHP, MySql.</li>
 						</ul>
 					</div>
 					<div class="col-sm-12 col-md-2">
@@ -108,18 +94,44 @@
 					</div>
 					<div class="col-sm-12 col-md-10">
 						<h5>Kierownik zespołu elektroników- SKN Modelowania Konstrukcji Maszyn - projekt Smart Power</h5>
+						Do moich obowiązków należało:
 						<ul>
 							<li>kierowanie sześcioosobowym zespołem,</li>
-							<li>projektowanie, wykonywanie oraz implementacja mikroprocesorowych systemów przeznaczonych do lekkich pojazdów elektrycznych,</li>
+							<li>projektowanie, wykonywanie oraz implementacja układów elektronicznych przeznaczonych do lekkich pojazdów elektrycznych,</li>
 							<li>tworzenie oprogramowania systemów wbudowanych w języku C,</li>
-							<li>wykonywanie dokumentacji technicznej dla zewnętrznych wykonawców,</li>
-							<li>projektowanie i wytwarzanie elementów mechanicznych z wykorzystaniem technologii druku 3D,</li>
+							<li>wykonywanie dokumentacji technicznej,</li>
+							<li>projektowanie i wytwarzanie elementów mechanicznych z wykorzystaniem druku 3D.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row CV_row">
+					<div class="col-sm-12 row_dark" id="skils">
+						<h3><span class="icon-wrench-1 icon"> </span>UMIEJĘTNOŚCI</h3>
+					</div>
+					<div class="offset-md-2 col-md-10">
+						<ul>
+							<li>Znajomość języka angielskiego na poziomie B2,</li>
+							<li>HTML5, CSS3,</li>
+							<li>JavaScript,</li>
+							<li>podstawowa znajomość bibliotek jQuery i Bootstrap,</li>
+							<li>MYSQL, phpMyAdmin,</li>
+							<li>PHP- podstawy,</li>
+							<li>Git, <a href="https://github.com/karolcichonski" target="_blank">GitHub,</a></li>
+							<li>XAMPP,</li>
+							<li>CAA V5 Visual basic,</li>
+							<li>programowanie skryptów w języku VBA w środowisku Microsoft Excel,</li>
+							<li>programowanie systemów wbudowanych w języku C,</li>
+							<li>znajomość programu Adobe PhotoShop,</li>
+							<li>terminowość i punktualność,</li>
+							<li>zdolność do samodzielnej nauki,</li>
+							<li>umiejętność pracy w zespole i pod presją czasu,</li>
+							<li>umiejętność dostosowania się do wymagań projektowych.</li>
 						</ul>
 					</div>
 				</div>
 				<div class="row CV_row">
 					<div class="col-sm-12 row_dark" id="school">
-						<h3>WYKSZTAŁCENIE</h3>
+						<h3><span class="icon-graduation-cap icon"></span>WYKSZTAŁCENIE</h3>
 					</div>
 					<div class="col-md-2">
 						<h5>02.2013-06.2014</h5>
@@ -142,13 +154,13 @@
 						<ul>
 							<li>Wydział: Mechaniczny Technologiczny</li>
 							<li>Kierunek: Mechatronika</li>
-							<li>Temat pracy inzynierskiej: Systemy bezpieczeństwa elektrycznego samochodu wyścigowego</li>
+							<li>Temat pracy inżynierskiej: Systemy bezpieczeństwa elektrycznego samochodu wyścigowego</li>
 						</ul>
 					</div>
 				</div>
 				<div class="row CV_row">
 					<div class="col-sm-12  row_dark" id="articles">
-						<h3>ARTYKUŁY I KONFERENCJE</h3>
+						<h3><span class="icon-book icon"></span>ARTYKUŁY I KONFERENCJE</h3>
 					</div>
 					<div class="col-md-2">
 						<h5>2015</h5>
@@ -187,16 +199,16 @@
 				</div>
 				<div class="row CV_row">
 					<div class="col-sm-12 row_dark" id="competitions">
-							<h3>KONKURSY</h3>
+							<h3><span class="icon-award icon"></span>KONKURSY</h3>
 					</div>
-					<div class="offset-md-2 col-md-10"><h5>Shell Eco Marathon w Rotterdamie</h5></div>
+					<div class="offset-md-2 col-md-10"><h5>Shell Eco Marathon w Rotterdamie, wraz z całym zespołem Smart Power:</h5></div>
 					<div class="col-md-2">
 						<h5>2014</h5>
 					</div>
 					<div class="col-md-10">
 						<ul>
-							<li>XX miejsce w kategorii Prototyp z napędem elektrycznym</li>
-							<li>XX miejsce w kategorii Urban (mały samochód miejski) z napędem elektrycznym</li>
+							<li>12 miejsce w kategorii Prototyp z napędem elektrycznym,</li>
+							<li>12 miejsce w kategorii Urban (mały samochód miejski) z napędem elektrycznym,</li>
 						</ul>
 					</div>
 					<div class="col-md-2">
@@ -204,47 +216,48 @@
 					</div>
 					<div class="col-md-10">
 						<ul>
-							<li>XX miejsce w kategorii Prototyp z napędem elektrycznym</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row CV_row">
-					<div class="col-sm-12 row_dark" id="skils">
-						<h3>UMIEJĘTNOŚCI</h3>
-					</div>
-					<div class="offset-md-2 col-md-10">
-						<ul>
-							<li>Znajomość języka angielskiego na poziomie B2,</li>
-							<li>HTML5, CSS3, JavaScript, MYSQL, PHP-podstawy, </li>
-							<li>Git</li>
-							<li>Programowanie mikrokontrolerów w języku C,</li>
-							<li>Programowanie skryptów w języku VBA w środowisku Microsoft Excel, Declmia</li>
-							<li>Znajomość programów: Adobe PhotoShop, Adobe After Effects, Adobe Premiere </li>
-							<li>Terminowość, systematyczność, kreatywność.</li>
+							<li>11 miejsce w kategorii Prototyp z napędem elektrycznym.</li>
 						</ul>
 					</div>
 				</div>
 				<div class="row CV_row">
 					<div class="col-sm-12 row_dark" id="interestings">
-						<h3>ZAINTERESOWANIA</h3>
+						<h3><span class="icon-motorcycle icon"></span>ZAINTERESOWANIA</h3>
 					</div>
 					<div class="offset-md-2 col-md-10">
 						<ul>
-							<li>Wspinaczka i turystyka górska</li>
-							<li>motocykle i turytyka motocyklowa</li>
-							<li>fotografia</li>
-							<li>elektronika</li>
+							<li>Motocykle i turystyka motocyklowa,</li>
+							<li>wspinaczka sportowa,</li>
+							<li>turystyka górska,</li>
+							<li>fotografia,</li>
+							<li>elektronika.</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</section>
 	</main>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<footer>
+		<div class=" container coll-sm-12">
+			Wyrażam zgodę na przetwarzanie moich danych osobowych przez The Software House sp. z o.o. w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko.
+		</div>
+	</footer>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+		jQuery(function($){
 
+			$("#nav_contact").click(function(){$.scrollTo($('#contact'),500);});
+			$("#nav_experience").click(function(){$.scrollTo($('#experience'),500);});
+			$("#nav_school").click(function(){$.scrollTo($('#school'),500);});
+			$("#nav_articles").click(function(){$.scrollTo($('#articles'),500);});
+			$("#nav_competitions").click(function(){$.scrollTo($('#competitions'),500);});
+			$("#nav_skils").click(function(){$.scrollTo($('#skils'),500);});
+			$("#nav_interestings").click(function(){$.scrollTo($('#interestings'),500);});
+		}
+		);
+	</script>
 </body>
 </html>

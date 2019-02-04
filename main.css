@@ -1,18 +1,33 @@
 body{
 	/*background-color: #2F3336;*/
-	background-color: #f0f0f0;
+	/*background-color: #f0f0f0;*/
+	background-color: #FFF;
 	/*color: #efefef;*/
     font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 }
 
+ul{
+	list-style-type: square;
+}
+
+.icon{
+	padding-right: 20px;
+}
+
 header{
 	width: 100%;
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+}
 
+footer{
+	text-align: center;
+	background-color:#d0d0d0;
+	padding: 10px;
+	font-style: italic;
 }
 
 .sticky{
@@ -26,7 +41,7 @@ header{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 #title{
@@ -38,9 +53,12 @@ header{
 }
 
 .CV_row{
-	-webkit-box-shadow: 7px 6px 19px -7px rgba(125,125,125,1);
-	-moz-box-shadow: 7px 6px 19px -7px rgba(125,125,125,1);
-	box-shadow: 7px 6px 19px -7px rgba(125,125,125,1);
+	-webkit-box-shadow: 3px 6px 19px -7px rgba(125,125,125,1);
+	-moz-box-shadow: 3px 6px 19px -7px rgba(125,125,125,1);
+	box-shadow: 3px 6px 19px -7px rgba(125,125,125,1);
+	/*-webkit-box-shadow: 3px 6px 19px 3px rgba(150,150,150,0.5);
+	-moz-box-shadow: 3px 6px 19px 3px rgba(150,150,150,0.5);
+	box-shadow: 3px 6px 19px 3px rgba(150,150,150,0.5);*/
 	margin-bottom: 3%;
 }
 
@@ -49,6 +67,10 @@ header{
 	background-color: #e0e0e0;
 	padding: 10px;
 	margin-bottom: 20px;
+}
+
+.dark_background{
+	background-color: #d0d0d0;
 }
 
 table td{
@@ -90,8 +112,11 @@ h2{
 
 h3
 {
+	font-size: 25px;
 	font-weight:400;
 	padding-left:20px; 
+	line-height: 20px;
+	margin:0;
 }
 
 .one_column{

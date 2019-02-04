@@ -1,4 +1,15 @@
 
 .icon-mobile:before { content: '\e800'; } /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
+.icon-wrench:before { content: '\e802'; } /* '' */
+.icon-award:before { content: '\e803'; } /* '' */
+.icon-book:before { content: '\e804'; } /* '' */
+.icon-wrench-1:before { content: '\e805'; } /* '' */
+.icon-camera:before { content: '\e806'; } /* '' */
+.icon-cog-alt:before { content: '\e807'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; } /* '' */
+.icon-paper-plane:before { content: '\f1d8'; } /* '' */
 .icon-birthday:before { content: '\f1fd'; } /* '' */
+.icon-motorcycle:before { content: '\f21c'; } /* '' */
+.icon-id-card:before { content: '\f2c2'; } /* '' */
+.icon-github-squared:before { content: '\f300'; } /* '' */
