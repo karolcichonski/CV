@@ -1,7 +1,7 @@
 body{
 	/*background-color: #2F3336;*/
-	/*background-color: #f0f0f0;*/
-	background-color: #FFF;
+	background-color: #f0f0f0;
+	/*background-color: #FFF;*/
 	/*color: #efefef;*/
     font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -19,8 +19,8 @@ ul{
 header{
 	width: 100%;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 footer{
@@ -28,13 +28,6 @@ footer{
 	background-color:#d0d0d0;
 	padding: 10px;
 	font-style: italic;
-}
-
-.sticky{
-	position: fixed;
-	z-index: +10;
-	top: 0;
-	width: 100%;
 }
 
 .navbar-nav{
@@ -71,6 +64,15 @@ footer{
 
 .dark_background{
 	background-color: #d0d0d0;
+	margin-bottom: 20px;
+}
+
+.sticky{
+	position: fixed;
+	z-index: +10;
+	top: 0;
+	width: 100%;
+	background-color: rgba(208,208,208,0.9)
 }
 
 table td{
