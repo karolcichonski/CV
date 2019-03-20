@@ -31,14 +31,14 @@ jQuery(function($){
             $.scrollTo(clcScrollPosition("#interestings"),scrollTime);
         });
 
-    $("#divPhoto").click(function(){
+    /*$("#divPhoto").click(function(){
         i++;
         if(i%2!=0){
             $("#divPhoto").html("<img id='photo' src='img/photo2.jpg' alt='photo'/>");
         }else{
             $("#divPhoto").html("<img id='photo' src='img/photo1.jpg' alt='photo'/>");
         }
-    });
+    });*/
 }
 );
 
